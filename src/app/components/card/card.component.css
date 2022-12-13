@@ -20,12 +20,21 @@
 }
 
 .card__body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #616161;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
   height: 70%;
 
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card__stats{
